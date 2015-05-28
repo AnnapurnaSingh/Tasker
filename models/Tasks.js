@@ -8,4 +8,4 @@ var TaskSchema= new mongoose.Schema({
 });
 
 //export to my node app!
-module.export = mongoose.model('Task', TaskSchema);
+module.exports = mongoose.model('Task', TaskSchema);
