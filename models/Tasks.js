@@ -5,7 +5,6 @@ var TaskSchema= new mongoose.Schema({
   completed: Boolean,
   description: String,
   updated_at: { type: Date, "default": Date.now }
-
 });
 
 //export to my node app!
